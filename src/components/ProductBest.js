@@ -13,11 +13,14 @@ export default function ProductCollection(props){
 
     const [isCart,setIsCart] = React.useState(true)
     const [color,setColor] = React.useState("")
+    const [img,setImg] = React.useState("")
 
     function hoverInCart(){
         setIsCart(prevCart=>!prevCart)
-        setColor("text-red-600")
+        setColor("cart")
+        setImg("img-hover")
     }
+    console.log(img)
     function hoverOutCart(){
         setIsCart(prevCart=>!prevCart)
         setColor("text-black")
@@ -27,10 +30,10 @@ export default function ProductCollection(props){
                 <div className="h-4/5 w-full">
                     <img className="h-full w-full block rounded-t-lg" src={props.img} alt="" />
                 </div>
-                {!isCart && <div className="absolute right-4 top-20 flex flex-col gap-3 ">
-                    <a href="heloo"><img className="bg-white rounded p-1" src={Heart} alt="" /></a>
-                    <a href="heloo"><img className="bg-white rounded p-1" src={Reapeat} alt="" /></a>
-                    <a href="heloo"><img className="bg-white rounded p-1" src={Search} alt="" /></a>
+                {!isCart && <div className="absolute right-4 top-12 transition-all ease-in-out delay-300 duration-500 flex flex-col gap-3">
+                    <a href="heloo"><img className={img} src={Heart} alt="" /></a>
+                    <a href="heloo"><img className={img} src={Reapeat} alt="" /></a>
+                    <a href="heloo"><img className={img} src={Search} alt="" /></a>
                 </div>}
                 <div className="flex bg-stone-200 rounded-b-lg flex-col gap-1 pb-3 px-3">
                     <div>

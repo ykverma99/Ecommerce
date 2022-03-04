@@ -41,7 +41,7 @@
     bottom: -5px;
     height: 3px;
     background-color: #000;
-    width: 92px;
+    width: 104px;
     transition: all 0.4s linear ease-in-out;
 }
 .leftShirt{
@@ -55,6 +55,19 @@
     left: 57.7%;
     top: 58%;
 }
+.cart{
+    color: red;
+    transition: all 0.3s ease-in-out; 
+}
+.img-hover{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    opacity: 1;
+    transition: all 0.8s ease-in-out;
+}
+
+
 @tailwind components;
 
 @tailwind utilities;

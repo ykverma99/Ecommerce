@@ -11,7 +11,7 @@ export default function CollectionShirt(props){
                 </div>
                 <div className="absolute flex flex-col gap-3 justify-start items-start -left-1/2">
                     <h2 className="text-5xl">Shoe Spring<br />2025</h2>
-                    <button className="mx-3 text-lg"><a href="/HELLO" className="linehover">SHOP NOW</a></button>
+                    <button className="mx-3 text-lg"><a href="/HELLO" className="linehover tracking-widest">SHOP NOW</a></button>
                 </div>
             </div>
         </div>

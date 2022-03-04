@@ -4,7 +4,10 @@ module.exports = {
     extend: {
       height:{
         '128': '55vh',
-      }
+      },
+      width:{
+        '128': '42%',
+      },
     },
   },
   plugins: [],

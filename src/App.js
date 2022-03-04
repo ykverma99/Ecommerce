@@ -3,6 +3,8 @@ import Main from "./components/Main";
 import Collection from "./components/Collection";
 import Products from "./components/Products";
 import SalesComponents from "./components/SalesComponents";
+import MaleCollection from "./components/MaleCollection";
+import Footer from "./components/Footer";
 
 function App() {
   return(
@@ -14,6 +16,8 @@ function App() {
       <Collection />
       <Products />
       <SalesComponents />
+      <MaleCollection />
+      <Footer />
     </div>
   )
 }

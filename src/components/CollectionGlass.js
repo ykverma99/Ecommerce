@@ -11,7 +11,7 @@ export default function CollectionGlass(props){
                 </div>
                 <div className="flex flex-col gap-3 justify-start items-start">
                     <h2 className="text-5xl">Accessiores</h2>
-                    <button className="mx-3 text-lg"><a href="/HELLO" className="linehover">SHOP NOW</a></button>
+                    <button className="mx-3 text-lg"><a href="/HELLO" className="linehover tracking-widest">SHOP NOW</a></button>
                 </div>
             </div>
         </div>

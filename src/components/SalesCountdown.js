@@ -7,7 +7,7 @@ export default function SalesCountdown(){
     const [timeseconds,setSeconds] = useState('00');
 
     let interval = React.useRef();
-    console.log(interval)
+    // console.log(interval)
 
     const startTimer = ()=>{
         const countDown = new Date("May 24, 2022 15:00:00").getTime();
